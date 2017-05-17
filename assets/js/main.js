@@ -102,10 +102,13 @@ $(document).ready(function(){
             //puntaje.innerHTML += 10;
             puntaje += 10;
             $("#score").html(puntaje + " Pts");
+            if (puntaje== 90) {
+              alert("You win!!")
+            }
           }else if($(el).attr("class") != $(e.toElement.parentElement).attr("id")){
             $(".vidas > img").last().remove();
               if($(".vidas > img").length <= 0){
-                alert(":(");
+                alert(":( Ups, try again");
               }
             length()
 
