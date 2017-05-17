@@ -1,0 +1,160 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 26px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+.link{
+  font-weight: 700;
+  padding: 21px;
+}
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+#home{
+  /*background-image: url(../assets/images/bg-home.jpg);*/
+  /*background-size: cover;*/
+  height: 700px;
+}
+.color_letra{
+  text-align: center;
+}
+.cuadrito{
+  text-align: center;
+  position: relative;
+  height: 50px;
+  left: 25px;
+  top: -70px;
+  background: #373B47;
+  font-size: 20px;
+  color: white;
+  padding-top: 7px;
+}
+
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  border-radius: 1px;
+  padding: 11px 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+#boton{
+  text-align: center;
+}
+#services{
+  background: -webkit-linear-gradient(green, white, red); /* For Safari 5.1 to 6.0 */
+  background: -o-lin t(green, white, red); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(green, white, red); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(green, white, red); /* Standard syntax (must be last) */
+  text-align: center;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+#work, #work2{
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+.text-work{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+footer{
+  text-align: center;
+  background: #373b47;
+  color: white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.9);
+    z-index: 2;
+}
+
+/* Modal Content (image) */
+#modal-content{
+    margin : auto ;
+    display: block;
+    width: 90%;
+    /*max-width: 700px;*/
+    z-index: 2;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 2;
+}
+.mySlides {display:none;}
+
+
+.efecto {
+    margin: 20px;
+    border: none;
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.efecto:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
